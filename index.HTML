@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Arizona Realtor</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            padding: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #000;
+            text-align: center;
+        }
+        footer {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #555;
+        }
+        .luxury-box {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .calculator, .home-value {
+            text-align: center;
+            background-color: #e0e0e0;
+            padding: 20px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Arizona Realtor</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#listings">Featured Listings</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#estimate">Home Value Estimate</a></li>
+        <li><a href="#mortgage">Mortgage Calculator</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="luxury-box">
+        <p>Hello, I'm [Your Name], a dedicated and experienced real estate agent based in Scottsdale, Arizona. Specializing in luxury homes and upscale properties, I aim to make the buying and selling process seamless and enjoyable for my clients.</p>
+    </div>
+</section>
+
+<section id="listings">
+    <h2>Featured Listings</h2>
+    <div class="luxury-box">
+        <p>Listing 1: Beautiful 5-bedroom home in Scottsdale with panoramic desert views - $2.5M</p>
+    </div>
+    <div class="luxury-box">
+        <p>Listing 2: Luxury 3-bedroom penthouse in Old Town Scottsdale - $1.8M</p>
+    </div>
+    <!-- Add more listings as needed -->
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <div class="luxury-box">
+        <h3>5 Tips for First-Time Home Buyers</h3>
+        <p>Are you buying your first home? Here are some tips to ensure a smooth process...</p>
+    </div>
+    <div class="luxury-box">
+        <h3>Why Scottsdale is the Perfect Place to Invest in Real Estate</h3>
+        <p>Scottsdale is booming, and now is the time to invest. Here's why...</p>
+    </div>
+    <!-- Add more blog posts as needed -->
+</section>
+
+<section id="estimate">
+    <h2>Home Value Estimate</h2>
+    <div class="home-value">
+        <p>Enter your address to get an instant estimate of your home's value.</p>
+        <input type="text" placeholder="Enter your address" />
+        <button class="button">Get Estimate</button>
+    </div>
+</section>
+
+<section id="mortgage">
+    <h2>Mortgage Payment Calculator</h2>
+    <div class="calculator">
+        <p>Calculate your estimated mortgage payments:</p>
+        <input type="number" placeholder="Home Price" />
+        <input type="number" placeholder="Down Payment" />
+        <input type="number" placeholder="Interest Rate (%)" />
+        <button class="button">Calculate</button>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+        </div>
+        <button type="submit" class="button">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Arizona Realtor | Designed with care and attention to detail</p>
+</footer>
+
+</body>
+</html>
